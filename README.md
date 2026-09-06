@@ -26,15 +26,15 @@ By default the script identifies `mango.jpg` as a leaf:
 
 ```bash
 python plant_identify.py
+python plant_identify.py grapes.jpg --organ fruit
 ```
 
-To identify a different photo, change `image_path_1` and `data['organs']` in `plant_identify.py`. Organ values PlantNet accepts include `leaf`, `flower`, `fruit`, and `bark`.
+Organ values PlantNet accepts include `leaf`, `flower`, `fruit`, and `bark`.
 
 ## Layout
 
 ```
 plant_identify.py     # PlantNet request
-testing_packages.py   # leftover helper that lists installed packages
 *.jpg / *.jpeg        # sample photos
 ```
 
